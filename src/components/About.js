@@ -15,7 +15,7 @@ export default function About() {
                     <p className="text-2xl font-semibold text-[#540cb5]">Automation Build Specialist @<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/BT_logo_2019.svg" className="w-10 h-10 mx-2 inline-flex"></img></p>
 
                     <br className="hidden lg:inline-block"/>
-                    <p className="text-gray-700">I love to build amazing apps and deploy them to Cloud services.</p>
+                    <p className="text-gray-700 text-xl">I love to build amazing apps and deploy them to ☁️ platforms internally and externally.</p>
                     <p className="mb-8 leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi,
                         incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus?
