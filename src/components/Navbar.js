@@ -7,7 +7,7 @@ import logo from '../dES.png'
 export default function Navbar() {
     return (
         <nav
-            className="flex items-center justify-between max-w-8xl p-4 mx-auto bg-white-800">
+            className="flex items-center justify-between max-w-8xl p-4 mx-auto bg-white-800 bg-gradient-to-r from-blue-800 shadow-lg">
             <a>
                 <div className="px-3 py-2 md:text-4xl xs:text-sm font-semibold flex flex-row">
                     {/* <a
