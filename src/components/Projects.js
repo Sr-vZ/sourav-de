@@ -6,7 +6,7 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="text-gray-400 body-font bg-gradient-to-b from-gray-800 via-gray-600 to-gray-200" >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
@@ -19,7 +19,7 @@ export default function Projects() {
             fuga dolore.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        {/* <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
               href={project.link}
@@ -43,7 +43,148 @@ export default function Projects() {
               </div>
             </a>
           ))}
+        </div> */}
+        
+
+          
+        <section className="md:overflow-x-scroll">
+        <div className="container p-5 py-12 mx-auto md:p-20 max-w-7xl">
+          <div className="flex flex-wrap mx-auto md:flex-nowrap">
+            {projects.map((project)=>(
+              <a href={project.link}>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src={project.image} alt="app" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-Poppins text-neutral-600">
+                      <span className>{project.title}
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> {project.description} </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            ))}
+            {/* <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="./images/ogtwitter.png" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a> */}
+            {/* <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedbackgrounds.com/images/opengraphTwitter.png" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://wickedpopups.com/images/ogTwitter.png" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://ph-files.imgix.net/f4e3679c-25d7-4a6d-b4a4-5b5052f8bb32.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&fit=max&dpr=2" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://www.york.ac.uk/media/news-and-events/pressreleases/2020/Random%20feat.jpg" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://www.york.ac.uk/media/news-and-events/pressreleases/2020/Random%20feat.jpg" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://www.york.ac.uk/media/news-and-events/pressreleases/2020/Random%20feat.jpg" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://www.york.ac.uk/media/news-and-events/pressreleases/2020/Random%20feat.jpg" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href>
+              <div className="flex w-full">
+                <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                  <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="https://www.york.ac.uk/media/news-and-events/pressreleases/2020/Random%20feat.jpg" alt="blog" />
+                  <div className="px-6 py-8">
+                    <h4 className="mt-4 text-2xl font-semibold text-neutral-600">
+                      <span className>Entry
+                      </span></h4>
+                    <p className="mt-4 text-base font-normal text-gray-500 leading-relax"> Install Tailwind CSS without any Javascript Framewrok locally with purgeCSS, enable the dark mode option, prefferences or class is upt to you. </p>
+                  </div>
+                </div>
+              </div>
+            </a> */}
+          </div>
         </div>
+      </section>
       </div>
     </section>
   );

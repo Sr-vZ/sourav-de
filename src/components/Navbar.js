@@ -2,7 +2,7 @@
 
 import {ArrowRightIcon} from "@heroicons/react/solid";
 import React from "react";
-import logo from '../dES.png'
+import logo from '../img/dES.png'
 
 export default function Navbar() {
     return (
@@ -27,8 +27,13 @@ export default function Navbar() {
                 </li>
 
                 <li>
-                    <a className="px-3 py-2 rounded-lg" href="">
+                    <a className="px-3 py-2 rounded-lg" href="#projects">
                         Projects
+                    </a>
+                </li>
+                <li>
+                    <a className="px-3 py-2 rounded-lg" href="#skills">
+                        Skills
                     </a>
                 </li>
 
