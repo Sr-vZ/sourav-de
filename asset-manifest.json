@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/sourav-de/static/css/main.90956763.css",
-    "main.js": "/sourav-de/static/js/main.054524ba.js",
+    "main.css": "/sourav-de/static/css/main.18a6f6a8.css",
+    "main.js": "/sourav-de/static/js/main.d0eb2f20.js",
     "static/js/787.128fc6e9.chunk.js": "/sourav-de/static/js/787.128fc6e9.chunk.js",
+    "static/media/Sourav_potrait2_better_light.png": "/sourav-de/static/media/Sourav_potrait2_better_light.28929939c91d056402cc.png",
+    "static/media/Digital_Sign_app.png": "/sourav-de/static/media/Digital_Sign_app.8093e0e57eeeab837f76.png",
     "static/media/dES.png": "/sourav-de/static/media/dES.382cdb37de616578179f.png",
+    "static/media/HexBG.svg": "/sourav-de/static/media/HexBG.7287dde80663dc350d06.svg",
+    "static/media/blobBG.svg": "/sourav-de/static/media/blobBG.8d2d976dacea52a9501e.svg",
     "index.html": "/sourav-de/index.html",
-    "main.90956763.css.map": "/sourav-de/static/css/main.90956763.css.map",
-    "main.054524ba.js.map": "/sourav-de/static/js/main.054524ba.js.map",
+    "main.18a6f6a8.css.map": "/sourav-de/static/css/main.18a6f6a8.css.map",
+    "main.d0eb2f20.js.map": "/sourav-de/static/js/main.d0eb2f20.js.map",
     "787.128fc6e9.chunk.js.map": "/sourav-de/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90956763.css",
-    "static/js/main.054524ba.js"
+    "static/css/main.18a6f6a8.css",
+    "static/js/main.d0eb2f20.js"
   ]
 }
