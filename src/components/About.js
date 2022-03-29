@@ -43,7 +43,8 @@ export default function About() {
                         </a>
                     </div>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"> */}
+                <div className="flex p-4">
                     <img
                         className="object-cover object-center rounded-2xl shadow-2xl"
                         alt="hero"

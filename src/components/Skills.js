@@ -15,8 +15,8 @@ export default function Skills() {
                         Skills &amp; Technologies
                     </h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit ipsa delectus
-                        eum quo voluptas aspernatur accusantium distinctio possimus est.
+                        Some of my Experience on Skills and technologies I have learned and still
+                        learning or worked with over the years through my professional journey.
                     </p>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -35,10 +35,10 @@ export default function Skills() {
                                 </span>
 
                             </a>
-                            <div className="collapse flex w-full hover-target" id={"skill" + skill.id}>
-                                <div className="block p-4 rounded-lg shadow-xl bg-white min-w-100">
-                                    {skill.subtitle}
-                                </div>
+                            <div
+                                className="collapse flex w-full hover-target p-4 rounded-lg shadow-xl bg-white"
+                                id={"skill" + skill.id}>
+                                {skill.subtitle}
                             </div>
                         </div>
                     ))}

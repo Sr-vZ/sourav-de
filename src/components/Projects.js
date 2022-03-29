@@ -3,6 +3,9 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+// const images = require.context('../img/', true)
+
+// require('../img/Digital_Sign_app.png')
 
 export default function Projects() {
   return (
@@ -14,9 +17,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Few examples of Apps I have developed or working on.
           </p>
         </div>
         {/* <div className="flex flex-wrap -m-4">
@@ -51,7 +52,8 @@ export default function Projects() {
         <div className="container p-5 py-12 mx-auto md:p-20 max-w-7xl">
           <div className="flex flex-wrap mx-auto md:flex-nowrap">
             {projects.map((project)=>(
-              <a href={project.link}>
+              // const img = require(`${project.image}`);
+              <a href={project.link} target="_blank">
               <div className="flex w-full">
                 <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:hover:-translate-x-16 md:hover:-translate-y-8">
                   <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src={project.image} alt="app" />

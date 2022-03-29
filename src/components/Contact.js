@@ -23,8 +23,8 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
-                13 Beniapukur Lane. <br />
+              <p className="mt-1 text-white">
+                13 Beniapukur Lane <br />
                 Kolkata 700 014
               </p>
             </div>
@@ -38,7 +38,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">+91-89812-15189</p>
+              <p className="leading-relaxed text-white">+91-89812-15189</p>
             </div>
           </div>
         </div>
@@ -50,8 +50,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+           Do you have a Project or App idea in mind, let's have a chat!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
