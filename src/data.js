@@ -7,9 +7,9 @@ const projects = [
         title: "React Music Player",
         subtitle: "MERN Stack",
         description: "A web based music player in React to deliver a rich UI/UX utilizing the Web Audio API of the browsers under the hood",
-        image: dsa,
+        image: mplayer,
         img:'Digital_Sign_app.png',
-        link: "https://reactbootcamp.com"
+        link: "https://codepen.io/SrvZ/full/dyJzVpW"
     }, {
         title: "React Tracks",
         subtitle: "React and Python",
