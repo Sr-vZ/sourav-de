@@ -1,12 +1,12 @@
 // src/data.js
 const dsa = require('./img/Digital_Sign_app.png')
+const mplayer = require('./img/MusicPlayer.PNG')
 
 const projects = [
     {
-        title: "React Reserve",
+        title: "React Music Player",
         subtitle: "MERN Stack",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore reru" +
-                "m laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        description: "A web based music player in React to deliver a rich UI/UX utilizing the Web Audio API of the browsers under the hood",
         image: dsa,
         img:'Digital_Sign_app.png',
         link: "https://reactbootcamp.com"

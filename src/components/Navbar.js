@@ -16,7 +16,7 @@ export default function Navbar() {
                     👋
                 </a> */}
                     <img src={logo} className="w-10 h-10 mx-2"></img>
-                      Sourav De
+                    Sourav De
                 </div>
             </a>
             <ul className="flex items-center space-x-2 text-sm font-medium text-gray-500">
