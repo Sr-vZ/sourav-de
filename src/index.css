@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('http://fonts.cdnfonts.com/css/rubber');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,7 +19,7 @@ code {
     monospace;
 }
 
-.hero-bg{
+.hero-bg {
   background: url('./img/HexBG.svg');
   background-repeat: no-repeat;
   background-position: left;
@@ -24,10 +27,12 @@ code {
 }
 
 @keyframes bgmove {
-  50% {background-position: right;}
+  50% {
+    background-position: right;
+  }
 }
 
-.blob-bg{
+.blob-bg {
   background: url('./img/blobBG.svg');
   background-repeat: no-repeat;
 }
@@ -63,11 +68,11 @@ code {
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }

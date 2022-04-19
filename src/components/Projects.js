@@ -49,12 +49,12 @@ export default function Projects() {
 
           
         <section className="md:overflow-x-scroll">
-        <div className="container p-5 py-12 mx-auto md:p-20 max-w-7xl">
+        <div className="container flex p-5 py-12 mx-auto md:p-20 max-w-7xl">
           <div className="flex flex-wrap mx-auto md:flex-nowrap">
             {projects.map((project)=>(
               // const img = require(`${project.image}`);
               <a href={project.link} target="_blank">
-              <div className="flex w-full">
+              <div className="flex flex-col w-full">
                 <div className="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:hover:-translate-x-16 md:hover:-translate-y-8">
                   <img className="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src={project.image} alt="app" />
                   <div className="px-6 py-8">

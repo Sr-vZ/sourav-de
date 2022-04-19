@@ -2,26 +2,28 @@
 
 import {ArrowRightIcon} from "@heroicons/react/solid";
 import React from "react";
-import logo from '../img/dES.png'
+import logo from '../img/SD.gif'
 
 export default function Navbar() {
     return (
         <nav
             className="flex items-center justify-between max-w-8xl p-4 mx-auto bg-white-800 bg-gradient-to-r from-blue-800 shadow-lg">
             <a>
-                <div className="px-3 py-2 md:text-4xl xs:text-sm font-semibold flex flex-row">
+                <div className="px-3 py-2  flex flex-row">
                     {/* <a
                     className="inline-flex items-center justify-center w-10 h-10 bg-gray-100 rounded-lg"
                     href="/">
                     👋
                 </a> */}
-                    <img src={logo} className="w-10 h-10 mx-2"></img>
-                    Sourav De
+                    <img src={logo} className="w-10 h-10 mx-2 rounded-sm"></img>
+                    <p className="md:text-4xl xs:text-sm font-Rubber">
+                        Sourav De
+                    </p>
                 </div>
             </a>
             <ul className="flex items-center space-x-2 text-sm font-medium text-gray-500">
                 <li className="hidden lg:block">
-                    <a className="px-3 py-2 rounded-lg" href="/">
+                    <a className="px-3 py-2 rounded-lg" href="/sourav-de">
                         Home
                     </a>
                 </li>
